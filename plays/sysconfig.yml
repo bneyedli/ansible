@@ -1,0 +1,17 @@
+---
+- 
+  hosts: localhost
+  connection: local
+  sudo: True
+
+  tasks:
+    - name: testies
+      shell: echo testies
+    - name: Install ufw
+      portage: package=net-firewall/ufw state=present
+    - name: enable ufw
+      ufw: state=enabled policy=deny logging=on
+    - name: ufw - enable ssh
+      ufw: rule=allow name=OpenSSH
+    - name: ufw - rate limit ssh
+      ufw: rule=limit port=ssh proto=tcp
