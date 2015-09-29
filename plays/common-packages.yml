@@ -49,3 +49,9 @@
       portage: package=sys-process/audit state=present
     - name: Install sys-process/cronie
       portage: package=sys-process/cronie state=present
+    - name: Install net-dns/dnstop
+      portage: package=net-dns/dnstop state=present
+    - name: Install net-dns/dnswalk
+      portage: package=net-dns/dnswalk state=present
+    - name: Install net-analyzer/dnstracer
+      portage: package=net-analyzer/dnstracer state=present
