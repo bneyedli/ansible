@@ -55,3 +55,9 @@
       portage: package=net-dns/dnswalk state=present
     - name: Install net-analyzer/dnstracer
       portage: package=net-analyzer/dnstracer state=present
+    - name: Install net-analyzer/httping
+      portage: package=net-analyzer/httping state=present
+    - name: Install net-dns/bind-tools
+      portage: package=net-dns/bind-tools state=present
+    - name: Install net-analyzer/hping
+      portage: package=net-analyzer/hping state=present
