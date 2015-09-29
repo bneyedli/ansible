@@ -1,0 +1,5 @@
+---
+
+  tasks:
+    - name: Install ufw
+      portage: package=net-firewall/ufw state=present

@@ -5,9 +5,5 @@
   sudo: True
 
   tasks:
-    - name: Install ufw
-      portage: package=net-firewall/ufw state=present
-    - name: ufw - enable ssh
-      ufw: rule=allow direction=in proto=tcp port=ssh
-    - name: ufw - rate limit ssh
-      ufw: rule=limit port=ssh proto=tcp
+    - include: common-packages.yml
+    - include: common-ufw.yml

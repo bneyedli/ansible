@@ -1,2 +1,9 @@
 localhost
-surya
+[buildhosts]
+builder
+[buildagents]
+build-agent
+[workstations]
+desktop
+laptop
+

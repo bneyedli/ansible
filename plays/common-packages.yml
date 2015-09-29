@@ -1,0 +1,51 @@
+---
+    - name: Install app-admin/ansible
+      portage: package=app-admin/ansible state=present
+    - name: Install app-admin/localepurge
+      portage: package=app-admin/localepurge state=present
+    - name: Install app-admin/rsyslog
+      portage: package=app-admin/rsyslog state=present
+    - name: Install app-admin/sudo
+      portage: package=app-admin/sudo state=present
+    - name: Install app-editors/vim
+      portage: package=app-editors/vim state=present
+    - name: Install app-misc/tmux
+      portage: package=app-misc/tmux state=present
+    - name: Install app-misc/tmux-mem-cpu-load
+      portage: package=app-misc/tmux-mem-cpu-load state=present
+    - name: Install app-portage/eix
+      portage: package=app-portage/eix state=present
+    - name: Install app-portage/euses
+      portage: package=app-portage/euses state=present
+    - name: Install app-portage/gentoolkit
+      portage: package=app-portage/gentoolkit state=present
+    - name: Install app-portage/layman
+      portage: package=app-portage/layman state=present
+    - name: Install net-analyzer/fwlogwatch
+      portage: package=net-analyzer/fwlogwatch state=present
+    - name: Install net-firewall/iptables
+      portage: package=net-firewall/iptables state=present
+    - name: Install net-firewall/ufw
+      portage: package=net-firewall/ufw state=present
+    - name: Install net-misc/dhcpcd
+      portage: package=net-misc/dhcpcd state=present
+    - name: Install net-misc/netifrc
+      portage: package=net-misc/netifrc state=present
+    - name: Install net-misc/openntpd
+      portage: package=net-misc/openntpd state=present
+    - name: Install sys-apps/logwatch
+      portage: package=sys-apps/logwatch state=present
+    - name: Install sys-apps/mlocate
+      portage: package=sys-apps/mlocate state=present
+    - name: Install sys-apps/pciutils
+      portage: package=sys-apps/pciutils state=present
+    - name: Install sys-apps/smartmontools
+      portage: package=sys-apps/smartmontools state=present
+    - name: Install sys-boot/grub
+      portage: package=sys-boot/grub state=present
+    - name: Install sys-kernel/linux-firmware
+      portage: package=sys-kernel/linux-firmware state=present
+    - name: Install sys-process/audit
+      portage: package=sys-process/audit state=present
+    - name: Install sys-process/cronie
+      portage: package=sys-process/cronie state=present
