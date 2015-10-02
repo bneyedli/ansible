@@ -61,3 +61,7 @@
       portage: package=net-dns/bind-tools state=present
     - name: Install net-analyzer/hping
       portage: package=net-analyzer/hping state=present
+    - name: Install sys-process/htop
+      portage: package=sys-process/htop state=present
+    - name: Install sys-process/iotop
+      portage: package=sys-process/iotop state=present
