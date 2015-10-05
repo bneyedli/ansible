@@ -1,0 +1,5 @@
+--
+    - name: "Ensure SSH is running on boot"  
+      service: name=sshd.service state=started
+    - name: "Ensure Syslog is running on boot"  
+      service: name=rsyslog.service state=started

@@ -5,5 +5,6 @@
   sudo: True
 
   tasks:
-    - include: common-packages.yml
     - include: common-ufw.yml
+    - include: common-packages.yml
+    - include: common-services.yml

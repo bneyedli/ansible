@@ -1,6 +1,7 @@
 ---
+  - name: Enable UFW and set default policy
+    ufw: state=enabled policy=reject
   - name: ufw - enable ssh
     ufw: rule=allow direction=in proto=tcp port=ssh
   - name: ufw - rate limit ssh
     ufw: rule=limit port=ssh proto=tcp
-
