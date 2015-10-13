@@ -67,3 +67,5 @@
       portage: package=sys-process/iotop state=present
     - name: Install net-analyzer/nmap
       portage: package=net-analyzer/nmap state=present
+    - name: Install net-analyzer/mtr
+      portage: package=net-analyzer/mtr state=present
