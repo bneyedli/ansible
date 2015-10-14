@@ -95,3 +95,5 @@
       portage: package=net-analyzer/tcpdump state=present
     - name: Install net-analyzer/traceproto
       portage: package=net-analyzer/traceproto state=present
+    - name: Install sys-apps/memtester
+      portage: package=sys-apps/memtester state=present
