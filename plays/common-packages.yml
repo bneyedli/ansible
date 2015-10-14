@@ -75,8 +75,6 @@
       portage: package=net-analyzer/tcptraceroute state=present
     - name: Install net-analyzer/arping
       portage: package=net-analyzer/arping state=present
-    - name: Install net-analyzer/arptools
-      portage: package=net-analyzer/arptools state=present
     - name: Install net-analyzer/arpwatch
       portage: package=net-analyzer/arpwatch state=present
     - name: Install net-analyzer/bmon
