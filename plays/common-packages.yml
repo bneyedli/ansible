@@ -73,3 +73,29 @@
       portage: package=app-benchmarks/dbench state=present
     - name: Install net-analyzer/tcptraceroute
       portage: package=net-analyzer/tcptraceroute state=present
+    - name: Install net-analyzer/arp-scan
+      portage: package=net-analyzer/arp-scan state=present
+    - name: Install net-analyzer/arping
+      portage: package=net-analyzer/arping state=present
+    - name: Install net-analyzer/arptools
+      portage: package=net-analyzer/arptools state=present
+    - name: Install net-analyzer/arpwatch
+      portage: package=net-analyzer/arpwatch state=present
+    - name: Install net-analyzer/bmon
+      portage: package=net-analyzer/bmon state=present
+    - name: Install net-analyzer/bmon
+      portage: package=net-analyzer/bmon state=present
+    - name: Install net-analyzer/fail2ban
+      portage: package=net-analyzer/fail2ban state=present
+    - name: Install net-analyzer/ifstat
+      portage: package=net-analyzer/ifstat state=present
+    - name: Install net-analyzer/iftop
+      portage: package=net-analyzer/iftop state=present
+    - name: Install net-misc/iperf
+      portage: package=net-misc/iperf state=present
+    - name: Install net-analyzer/openbsd-netcat
+      portage: package=net-analyzer/openbsd-netcat state=present
+    - name: Install net-analyzer/tcpdump
+      portage: package=net-analyzer/tcpdump state=present
+    - name: Install net-analyzer/traceproto
+      portage: package=net-analyzer/traceproto state=present

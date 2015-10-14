@@ -1,0 +1,31 @@
+---
+    - name: Install net-analyzer/dsniff
+      portage: package=net-analyzer/dsniff state=present
+    - name: Install net-analyzer/amap
+      portage: package=net-analyzer/amap state=present
+    - name: Install net-analyzer/angst
+      portage: package=net-analyzer/angst state=present
+    - name: Install net-analyzer/arpoison
+      portage: package=net-analyzer/arpoison state=present
+    - name: Install net-analyzer/dosdetector
+      portage: package=net-analyzer/dosdetector state=present
+    - name: Install net-analyzer/ettercap
+      portage: package=net-analyzer/ettercap state=present
+    - name: Install net-analyzer/firewalk
+      portage: package=net-analyzer/firewalk state=present
+    - name: Install net-analyzer/metasploit
+      portage: package=net-analyzer/metasploit state=present
+    - name: Install net-analyzer/nikto
+      portage: package=net-analyzer/nikto state=present
+    - name: Install net-analyzer/packit
+      portage: package=net-analyzer/packit state=present
+    - name: Install net-analyzer/sqlninja
+      portage: package=net-analyzer/sqlninja state=present
+    - name: Install net-analyzer/thc-ipv6
+      portage: package=net-analyzer/thc-ipv6 state=present
+    - name: Install net-analyzer/thcrut
+      portage: package=net-analyzer/thcrut state=present
+    - name: Install net-analyzer/w3af
+      portage: package=net-analyzer/w3af state=present
+    - name: Install net-wireless/reaver
+      portage: package=net-wireless/reaver state=present
