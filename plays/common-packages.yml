@@ -73,8 +73,6 @@
       portage: package=app-benchmarks/dbench state=present
     - name: Install net-analyzer/tcptraceroute
       portage: package=net-analyzer/tcptraceroute state=present
-    - name: Install net-analyzer/arp-scan
-      portage: package=net-analyzer/arp-scan state=present
     - name: Install net-analyzer/arping
       portage: package=net-analyzer/arping state=present
     - name: Install net-analyzer/arptools
