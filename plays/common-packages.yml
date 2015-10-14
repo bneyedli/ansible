@@ -71,3 +71,5 @@
       portage: package=net-analyzer/mtr state=present
     - name: Install app-benchmarks/dbench
       portage: package=app-benchmarks/dbench state=present
+    - name: Install net-analyzer/tcptraceroute
+      portage: package=net-analyzer/tcptraceroute state=present
