@@ -97,3 +97,5 @@
       portage: package=net-analyzer/traceproto state=present
     - name: Install sys-apps/memtester
       portage: package=sys-apps/memtester state=present
+    - name: Install sys-process/lsof
+      portage: package=sys-process/lsof state=present
