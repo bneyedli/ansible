@@ -89,8 +89,6 @@
       portage: package=net-analyzer/iftop state=present
     - name: Install net-misc/iperf
       portage: package=net-misc/iperf state=present
-    - name: Install net-analyzer/openbsd-netcat
-      portage: package=net-analyzer/openbsd-netcat state=present
     - name: Install net-analyzer/tcpdump
       portage: package=net-analyzer/tcpdump state=present
     - name: Install net-analyzer/traceproto
