@@ -8,3 +8,9 @@
     - include: common-ufw.yml
     - include: common-packages.yml
     - include: common-services.yml
+
+  hosts: buildhosts
+  connection: local
+  sudo: True
+  tasks:
+    - include: buildhost-packages.yml
