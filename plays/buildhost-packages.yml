@@ -1,8 +1,8 @@
 ---    
     - name: Install app-emulation/lxc
       portage: package=app-emulation/lxc state=present
-    - name: Install dev-util/teamcity
-      portage: package=dev-util/teamcity state=present
+    - name: Install dev-java/teamcity
+      portage: package=dev-java/teamcity state=present
     - name: Install sys-devel/crossdev
       portage: package=sys-devel/crossdev state=present
     - name: Install sys-kernel/genkernel-next
