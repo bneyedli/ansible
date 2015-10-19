@@ -29,3 +29,7 @@
       portage: package=net-analyzer/w3af state=present
     - name: Install net-wireless/reaver
       portage: package=net-wireless/reaver state=present
+    - name: Install net-wireless/kismet
+      portage: package=net-wireless/kismet state=present
+    - name: Install net-wireless/kismet-ubertooth
+      portage: package=net-wireless/kismet-ubertooth state=present

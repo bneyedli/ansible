@@ -9,3 +9,5 @@
       portage: package=sys-kernel/genkernel-next state=present
     - name: Install sys-kernel/gentoo-sources
       portage: package=sys-kernel/gentoo-sources state=present
+    - name: Install net-misc/bridge-utils
+      portage: package=net-misc/bridge-utils state=present
