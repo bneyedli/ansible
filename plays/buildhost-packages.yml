@@ -15,3 +15,5 @@
       portage: package=sec-policy/selinux-base state=present
     - name: Install sec-policy/selinux-base-policy
       portage: package=sec-policy/selinux-base-policy state=present
+    - name: Install dev-util/valgrind
+      portage: package=dev-util/valgrind state=present
