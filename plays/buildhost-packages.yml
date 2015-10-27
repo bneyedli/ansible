@@ -17,3 +17,5 @@
       portage: package=sec-policy/selinux-base-policy state=present
     - name: Install dev-util/valgrind
       portage: package=dev-util/valgrind state=present
+    - name: Install dev-util/nvidia-cuda-toolkit
+      portage: package=dev-util/nvidia-cuda-toolkit state=present
